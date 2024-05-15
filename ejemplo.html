@@ -1,44 +1,78 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Formulario de estudiante</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos estudiantes sistemas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Formulario de estudiante</h1>
-
-  <form id="formulario_estudiante">
-    <label for="apellidos">Apellidos:</label>
-    <input type="text" id="apellidos" name="apellidos" required>
-
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
-
-    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
-    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
-
-    <label for="lugar_nacimiento">Lugar de nacimiento:</label>
-    <input type="text" id="lugar_nacimiento" name="lugar_nacimiento" required>
-
-    <label for="edad">Edad:</label>
-    <input type="number" id="edad" name="edad" required>
-
-    <h2>Tipo de Documento Identidad</h2>
-    <label for="tipo_documento">Tipo de documento:</label>
-    <select id="tipo_documento" name="tipo_documento" required>
-      <option value="TI">T.I.</option>
-      <option value="CC">C.C.</option>
-    </select>
-
-    <label for="numero_documento">Número de documento:</label>
-    <input type="number" id="numero_documento" name="numero_documento" required>
-
-    <label for="lugar_expedicion">Lugar de expedición del documento:</label>
-    <input type="text" id="lugar_expedicion" name="lugar_expedicion" required>
-
-    <h2>Dirección</h2>
-    <label for="direccion">Dirección:</label>
-    <input type="text" id="direccion" name="direccion" required>
-
-    <label for="barrio">Barrio:</label>
-    <input type="text" id="barrio" name="barrio" required>
+    <h3>Colegio San Jose De Guanenta</h1>
+    <h3>Especialidad en Sistemas - 2024</h2>
+    <h3>DATOS DEL ESTUDIANETE</h3>
+    <p>Apellidos: <input type="text" name="" id="apellidos"> Nombre: <input type="text" name="" id="Nombres"> </p>
+    <br>
+    <p>Fecha de nacimiento: <input type="text" name="" id="Fecha de nacimiento"> Lugar de nacimiento: <input type="date" name="" id="Lugar de nacimiento"></p>
+    <br>
+    <p>Tipo Documento Identidad: T.I: <input type="text" name="" id="T.I"> C.C: <input type="text" name="" id="C.C"> Número Documento Identidad: <input type="text" name="" id="D.I"> </p>
+    <br>
+    <p>Lugar Expedición Documento Identidad: <input type="text" name="" id="L.EXP"> </p>
+    <p>Dirección: <input type="text" name="" id="Direccion">Barrio: <input type="text" name="" id="Barrio"> Ciudad: <input type="text" name="" id="Ciudad"> </p>
+    <br>
+    <p>Teléfono: <input type="text" name="" id="Teléfono"> Celular: <input type="text" name="" id="Celular"> </p>
+    <p>E-mail personal: <input type="text" name="" id="Email P"> E-mail inst: <input type="text" name="" id="correo inst">  </p>
+    <br>
+    <p>Tipo de Sangre: 
+        <select name="" id="tipo_sangre">
+            <option value="">Selecc. tipo de sangre</option>
+            <option value="A+">A+</option>
+            <option value="A-">A+</option>
+            <option value="B+">A+</option>
+            <option value="B-">A+</option>
+            <option value="O+">A+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select> 
+        EPS: <input type="text" name="" id="EPS"> </p>
+    <br>
+    <p>¿Sufre alguna enfermedad?: Si: <input type="checkbox" name="" id="Yes"> No: <input type="checkbox" name="" id="Noup">Cual?: <input type="text" name="" id="Cual"></p>
+    <br>
+    <p>Estrato socioeconómico: <input type="text" name="" id="Estrato"> familias en accion: Si:<input type="checkbox" name="" id="fmsi">No:<input type="checkbox" name="" id="fmno"></p>
+    <br>
+    <p>Tipo de Religión: <input type="text" name="" id="tp de religion"></p>
+    <br>
+    <p>Relación Padres: Casados:<input type="checkbox" name="" id="Casados">Divorciados:<input type="checkbox" name="" id="Divorciados">Union libre:<input type="checkbox" name="" id="union libre"> otro:<input type="text" name="" id="otrospd"> </p>
+    <br>
+    <p>Computadora en casa: Si:<input type="checkbox" name="" id="PCsi">No:<input type="checkbox" name="" id="PCno">Internet en casa: Si:<input type="checkbox" name="" id="INRTsi">No:<input type="checkbox" name="" id="INTRNTno"></p>
+    <br>
+    <p>¿Cuales son las principales actividades que used realiza en su tiempo libre?</p>
+    <br>
+    <p><input type="text" name="" id="PCsi"></p>
+    <p>¿Cuáles son sus propósitos y espectativas personales y académicas como estudiante de la Especialidad en Sistemas?</p>
+    <p><input type="text" name="" id="PCsi"></p>
+    <h3>Datos del Padre</h4>
+    <p>Apellidos: <input type="text" name="" id="apellidos"> Nombre: <input type="text" name="" id="Nombres"> </p>
+    <p>Dirección: <input type="text" name="" id="Direccion">Barrio: <input type="text" name="" id="Barrio"> </p>
+    <p>Teléfono: <input type="text" name="" id="Teléfono"> Celular: <input type="text" name="" id="Celular"> </p>
+    <p>E-mail personal: <input type="text" name="" id="Email P">  </p>
+    <p>ocupacion:<input type="text" name="" id="Ocupacion"> </p>
+    <h3>Datos de la Madre</h5>
+    <p>Apellidos: <input type="text" name="" id="apellidos"> Nombre: <input type="text" name="" id="Nombres"> </p>
+    <p>Dirección: <input type="text" name="" id="Direccion">Barrio: <input type="text" name="" id="Barrio"> </p>
+    <p>Teléfono: <input type="text" name="" id="Teléfono"> Celular: <input type="text" name="" id="Celular"> </p>
+    <p>E-mail personal: <input type="text" name="" id="Email P">  </p>
+    <p>ocupacion:<input type="text" name="" id="Ocupacion"> </p>
+    <h3>Datos del Acudiente ("persona que asistira a las reuniones y entrega de boletines: ya sea madre,padre u otro)</h6>
+    <p>Apellidos: <input type="text" name="" id="apellidos"> Nombre: <input type="text" name="" id="Nombres"> Parentesco: <input type="text" name="" id="Parentesco"> </p>
+    <p>Dirección: <input type="text" name="" id="Direccion">Barrio: <input type="text" name="" id="Barrio"> </p>
+    <p>Teléfono: <input type="text" name="" id="Teléfono"> Celular: <input type="text" name="" id="Celular"> </p>
+    <p>E-mail personal: <input type="text" name="" id="Email P">  </p>
+    <p>ocupacion:<input type="text" name="" id="Ocupacion"> </p>
+    <br>
+    <br>
+    <button type="submit" onclick="return validateForm()">Enviar</button>
+    <br>
+    <p>"Ser guanentino Honor Que Cuesta"</p>
+</body>
+</html>

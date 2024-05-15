@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray heading color */
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styles */
+  form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* White form background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Gray label color */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Section Headers */
+  .section-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50; /* Green section header color */
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #87ec29; /* Darker green button on hover */
+  }
+  
+  /* Motto */
+  .motto {
+    text-align: center;
+    margin-top: 20px;
+    color: #999; /* Light gray motto color */
+  }
+  
